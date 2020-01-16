@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <button class="home">Home</button>
+        <button class="posts">Posts</button>
+        <button class="about" >About</button>
+        <button class="login">Log In</button>
+    </div>
+    <h1 class="annieblog">Annie's Blog</h1>
+    <p>This blog features what I have learned and projects I <br> have completed in JRS Coding school. </p>
+    <div class="footer">
+            <button class="contact">Contact Me</button>
+            <button class="social">Follow Me</button>
+        </div>
+</body>
+<style>
+
+    *{
+        font-family: 'Anton', sans-serif;
+
+    }
+    .nav {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        widows: 700px;
+        height: 50px;
+        font-size: 40px;
+        padding: 3px;
+        grid-gap: 8px;
+        font-family: 'Anton', sans-serif;
+        
+    }
+
+    .footer {
+        float: left;
+        widows: 700px;
+        height: 40px;
+        padding: 1px;
+        margin-top: 500px;
+       
+    }
+
+
+    body {
+        background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/08/beverage-blog-blogger-1549701.jpg?w=1550);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+
+    .home {
+        background-color: pink;
+        grid-column: 1/2;
+        grid-row: 1/1;
+        border: solid black 2px;
+        font-size: x-large;
+    }
+
+    .posts {
+        background-color: pink;
+        grid-column: 2/3;
+        grid-row: 1/1;
+        border: solid black 2px;
+        font-size: x-large;
+    }
+    .about {
+        background-color: pink;
+        grid-column: 3/4;
+        grid-row: 1/1;
+        border: solid black 2px;
+        font-size: x-large;
+    }
+
+    .login {
+        background-color: pink;
+        grid-column: 4/5;
+        grid-row: 1/1;
+        border: solid black 2px;
+        font-size: x-large;
+    }
+</style>
+
+</html>
